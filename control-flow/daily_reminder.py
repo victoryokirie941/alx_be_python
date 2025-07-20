@@ -25,3 +25,6 @@ if time_bound == "yes":
 else:
     reminder += ". Consider completing it when you have free time."
 
+# Simulate a single looped notification
+for _ in range(1):  # This can be changed to repeat reminders if needed
+    print("\nReminder:", reminder)
